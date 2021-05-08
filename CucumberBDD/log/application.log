@@ -95,3 +95,13 @@
 2021-04-22 22:51:31,627 [main] INFO Zoopla Automation - ******** > User click on the signing button < ***********
 2021-04-22 22:51:31,644 [main] INFO Zoopla Automation - ******** > User able to verify successfully login & verify the homepage title < ***********
 2021-04-22 22:51:33,656 [main] INFO Zoopla Automation - ******** > User able to take screen shot for verfy the homepage < ***********
+2021-04-22 22:56:45,108 [main] INFO Zoopla Automation - ******** > Test excuted with chrome browser  < ***********
+2021-04-22 22:56:47,225 [main] INFO Zoopla Automation - ******** > User able to enter URL  < ***********
+2021-04-22 22:57:02,754 [main] INFO Zoopla Automation - ******** > User able click on Accept the cookies < ***********
+2021-04-22 22:57:02,912 [main] INFO Zoopla Automation - ******** > User able to click on the login button < ***********
+2021-04-22 22:57:10,595 [main] INFO Zoopla Automation - ******** > User enter the userName & Peassword < ***********
+2021-04-22 22:57:10,880 [main] INFO Zoopla Automation - ******** > User click on the signing button < ***********
+2021-04-22 22:57:10,898 [main] INFO Zoopla Automation - ******** > User able to verify successfully login & verify the homepage title < ***********
+2021-04-22 22:57:12,909 [main] INFO Zoopla Automation - ******** > User able to take screen shot for verfy the homepage < ***********
+2021-04-22 22:58:58,549 [main] INFO Zoopla Automation - ******** > Test excuted with chrome browser  < ***********
+2021-04-22 22:59:00,427 [main] INFO Zoopla Automation - ******** > User able to enter URL  < ***********
