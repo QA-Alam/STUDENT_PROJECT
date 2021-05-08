@@ -175,6 +175,6 @@ public class InterViewTest {
 		// evenAndOddNumber();
 		// removeSpecialCharacters();
 		// isPrimeNumber();
-		writeExcel();
+		// writeExcel();
 	}
 }
