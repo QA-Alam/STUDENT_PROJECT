@@ -1,9 +1,7 @@
 package javaCodeTest;
 
 import java.io.File;
-import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
-import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.HashSet;
@@ -12,7 +10,6 @@ import java.util.Map;
 import java.util.Set;
 import java.util.TreeMap;
 import java.util.stream.Collectors;
-
 import org.apache.poi.ss.usermodel.Cell;
 import org.apache.poi.ss.usermodel.Row;
 import org.apache.poi.xssf.usermodel.XSSFSheet;
@@ -66,6 +63,9 @@ public class InterViewTest {
 			System.out.println("No, it is not a palindroume number;");
 		}
 	}
+	
+	
+	
 
 	// How to find even number
 	public static void evenAndOddNumber() {
