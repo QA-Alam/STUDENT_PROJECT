@@ -127,10 +127,8 @@ public class InterViewTest {
 
 		// Blank workbook
 		XSSFWorkbook workbook = new XSSFWorkbook();
-
 		// Create a blank sheet
 		XSSFSheet sheet = workbook.createSheet("Smarttech");
-
 		// This data needs to be written (Object[])
 		Map<String, Object[]> data = new TreeMap<String, Object[]>();
 		data.put("1", new Object[] { "ID", "FIRSTNAME", "LASTNAME" });
@@ -153,7 +151,6 @@ public class InterViewTest {
 
 				else if (obj instanceof Integer)
 					cell.setCellValue((Integer) obj);
-
 			}
 		}
 		try {
