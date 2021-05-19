@@ -163,6 +163,21 @@ public class InterViewTest {
         	e.getMessage();
         }
 	}
+	// How to find second highest  number
+	public static void secondHighestNumber() {
+
+		   int array[] = { 100, 20, 306, 40, 50, 60 };
+		
+		   int size = array.length;
+		   System.out.println(size);  // Find out the length
+		   
+		   Arrays.sort(array);  //Sort the value by sort method 
+		   System.out.println(Arrays.toString(array));
+		   	   
+		  int res  = array[size - 2];
+		  System.out.println("my 2nd largest number  is a: " + res);
+		  
+	}
 
 	public static void main(String[] args) {
 		// duplicateNum();
