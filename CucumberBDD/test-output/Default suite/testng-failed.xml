@@ -3,11 +3,11 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.readExcel.TextFileReading">
+      <class name="ups.api.dummy.PutReq">
         <methods>
-          <include name="main"/>
+          <include name="putReq"/>
         </methods>
-      </class> <!-- com.readExcel.TextFileReading -->
+      </class> <!-- ups.api.dummy.PutReq -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
