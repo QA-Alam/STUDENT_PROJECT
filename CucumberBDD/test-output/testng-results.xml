@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="2092" started-at="2021-05-22T19:48:24 EDT" finished-at="2021-05-22T19:48:26 EDT">
+  <suite name="Default suite" duration-ms="2405" started-at="2021-05-26T18:07:18 EDT" finished-at="2021-05-26T18:07:20 EDT">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="2092" started-at="2021-05-22T19:48:24 EDT" finished-at="2021-05-22T19:48:26 EDT">
-      <class name="ups.api.dummy.DeleteReq">
-        <test-method status="PASS" signature="DeletRequest()[pri:0, instance:ups.api.dummy.DeleteReq@3ee0fea4]" name="DeletRequest" duration-ms="2049" started-at="2021-05-22T19:48:24 EDT" finished-at="2021-05-22T19:48:26 EDT">
+    <test name="Default test" duration-ms="2405" started-at="2021-05-26T18:07:18 EDT" finished-at="2021-05-26T18:07:20 EDT">
+      <class name="ups.api.dummy.PostReq">
+        <test-method status="PASS" signature="postReq()[pri:0, instance:ups.api.dummy.PostReq@3ee0fea4]" name="postReq" duration-ms="2362" started-at="2021-05-26T18:07:18 EDT" finished-at="2021-05-26T18:07:20 EDT">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- DeletRequest -->
-      </class> <!-- ups.api.dummy.DeleteReq -->
+        </test-method> <!-- postReq -->
+      </class> <!-- ups.api.dummy.PostReq -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

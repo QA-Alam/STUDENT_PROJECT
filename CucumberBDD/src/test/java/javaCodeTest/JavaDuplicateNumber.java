@@ -153,4 +153,6 @@ public class JavaDuplicateNumber {
 		int missingNumber = sum - restSum;
 		return missingNumber;
 	}
+	
+	
 }

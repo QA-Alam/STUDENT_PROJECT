@@ -4,6 +4,7 @@ import org.json.simple.JSONObject;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
+import Utilities.CommonUtility;
 import io.restassured.RestAssured;
 import io.restassured.http.Method;
 import io.restassured.response.Response;
@@ -18,10 +19,10 @@ public class PostReq {
 		RequestSpecification httpRequest = RestAssured.given();
 		
 		JSONObject data = new JSONObject();
-		data.put("Batch-no", "112");
-		data.put("First_Name", "Mohammed");
-		data.put("Last_Name", "Alam");
-		data.put("Company_Name", "Smarttech");
+		data.put("Batch-no", CommonUtility.randomNumeric());
+		data.put("First_Name", CommonUtility.randomestring());
+		data.put("Last_Name", CommonUtility.randomestring());
+		data.put("Company_Name", CommonUtility.randomestring());
 		data.put("Email", "Alammohammed79@gmail.com");
 		
 		httpRequest.header("Content-Type", "application/json; charset=utf-8");

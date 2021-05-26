@@ -7,6 +7,7 @@ import java.io.IOException;
 import java.util.Iterator;
 import java.util.Set;
 
+import org.apache.commons.lang3.RandomStringUtils;
 import org.openqa.selenium.Alert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
@@ -75,6 +76,18 @@ public class CommonUtility extends CucumberBaseClass {
 	        //  Switch back to the main window which is the parent window.
 	        driver.switchTo().window(mainWindowHandle);
 	      
+	}
+	
+	// Created for generating random string for Unique email
+	public static String randomestring() {
+		String generatedString1 = RandomStringUtils.randomAlphabetic(4);
+		return (generatedString1);
+	}
+
+	// Created for generating random string for Unique email
+	public static String randomNumeric() {
+		String generatedString = RandomStringUtils.randomNumeric(18);
+		return (generatedString);
 	}
 	
 	// How to handle the alert box/window/ pop up window 

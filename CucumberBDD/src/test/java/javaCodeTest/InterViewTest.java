@@ -10,13 +10,22 @@ import java.util.Map;
 import java.util.Set;
 import java.util.TreeMap;
 import java.util.stream.Collectors;
+
+import org.apache.bcel.generic.Select;
+import org.apache.commons.codec.binary.Base64;
+import org.apache.commons.lang3.RandomStringUtils;
 import org.apache.poi.ss.usermodel.Cell;
 import org.apache.poi.ss.usermodel.Row;
 import org.apache.poi.xssf.usermodel.XSSFSheet;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 
-public class InterViewTest {
+import ups.nj.supperpage.CucumberBaseClass;
 
+public class InterViewTest extends CucumberBaseClass{
+	static String password = "";
 	// How to find out duplicate element / number
 	public static void duplicateNum() {
 		// Initialize array
@@ -178,8 +187,42 @@ public class InterViewTest {
 		  System.out.println("my 2nd largest number  is a: " + res);
 		  
 	}
+	
+	// SSN DOB ADDRESS	
+	public static void myPassword() {
+	byte [] encodedString = Base64.encodeBase64(password.getBytes());
+	System.out.println(encodedString);
+		
+	byte [] decoedString = Base64.decodeBase64(password);
+	System.out.println(decoedString);
+			 
+	}
+	
+	public static String decodingString(String password) {
+		byte [] decoedString = Base64.decodeBase64(password);
+		return (new String (decoedString));
+	}
+	
 
-	public static void main(String[] args) {
+	// Created for generating random string for Unique email
+	public static String randomestring() {
+		String generatedString1 = RandomStringUtils.randomAlphabetic(8);
+		return (generatedString1);
+	}
+
+	// Created for generating random string for Unique email
+	public static String randomNumeric() {
+		String generatedString = RandomStringUtils.randomNumeric(10);
+		return (generatedString);
+	}
+	
+
+	
+
+	public static void main(String[] args) {	
+		System.out.println(randomNumeric());
+		//myPassword();
+	//driver.findElement(By.xpath("")).sendKeys(InterViewTest.decodingString(password));	
 		// duplicateNum();
 		// removeDuploicateNum();
 		// missingNumber();
@@ -188,5 +231,7 @@ public class InterViewTest {
 		// removeSpecialCharacters();
 		// isPrimeNumber();
 		// writeExcel();
+		
+	
 	}
 }
